@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./public/images/logo.png">
+    <link rel="stylesheet" href="./public//css/style.css">
+    <title>User</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <ul>
+                <li><a href="./Service.html">ĐẶT DỊCH VỤ</a></li>
+                <li><a href="./DetailProduct.html">CHI TIẾT ĐƠN HÀNG</a></li>
+                <li><a href="./Admin.html">TRANG CHỦ ADMIN</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="title-content">
+                <h2 style="color:black;">HÃY ĐẶT DỊCH VỤ CỦA CHÚNG TÔI</h2>
+            </div>
+            <div class="inforUser">
+                <h3 style="color:black;">Điền thông tin</h3>
+            </div>
+            <div class="row">
+                    <div class="input">
+                        <p>Họ và tên</p>
+                        <input type="text">
+                    </div>
+                    <div class="input">
+                        <p>Số điện thoại</p>
+                        <input type="text">
+                    </div>
+                    <div class="input">
+                        <p>Địa chỉ</p>
+                        <input type="text">
+                    </div>
+            </div>
+            <div class="row">
+                <div class="input">
+                    <p>Gói dịch vụ</p>
+                    <select>
+                        <option value=""></option>
+                    </select>
+                </div>
+                <div class="input">
+                    <p>Số lượng</p>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="row">
+                <div class="input">
+                    <p>Đơn giá</p>
+                    <input type="text">
+                </div>
+                <div class="input">
+                    <p>Ghi chú</p>
+                    <input type="text">
+                </div>
+                <div class="input">
+                    <p>Thành tiền</p>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="row">
+                <div class="input">
+                    <p>Thời gian bắt đầu</p>
+                    <p id="hvn">
+                    </p>
+                </div>
+                <div class="input">
+                    <p>Trạng thái:</p>
+                </div>
+                <div class="input">
+                    <p>Mã Đăng Ký:</p>
+                </div>
+            </div>
+            <div class="btn-input">
+                <button type="submit">Đăng Ký</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var today=new Date();
+        var time=today.getHours()+':'+today.getMinutes()+':'+today.getSeconds();
+        document.getElementById('hvn').innerHTML=time;
+    </script>
+</body>
+</html>

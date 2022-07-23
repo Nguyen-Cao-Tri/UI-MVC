@@ -12,7 +12,6 @@ body {
     font-family: "Open Sans", sans-serif;
     font-weight: normal;
     font-style: normal;
-    color: #8C96A7;
     overflow-x: hidden;
   }
 .wrapper{
@@ -41,7 +40,11 @@ body {
     color: #ffffff;
     margin-top: 10px;
 }
-
+.content{
+    margin: 20px;
+    width: 100vh;
+    height: auto;
+}
 .social{
     height: 200px;
     width: 50px;
@@ -134,4 +137,31 @@ body {
 }
 #form-login a{
     margin-top: 10px;
+}
+.title-content{
+    width: 100%;
+    height: 50px;
+}
+.row{
+    width: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    margin-top: 20px;
+}
+.row input{
+    width: 200px;
+}
+.btn-input button{
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    border: 10px;
+    cursor: pointer;
+}
+.btn-input button:hover{
+    background-color: black;
+    color: #ccc;
 }
