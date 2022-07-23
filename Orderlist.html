@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./public/images/logo.png">
+    <link rel="stylesheet" href="./public//css/style.css">
+    <title>Admin</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <ul>
+                <li><a href="./OrderList.html">DANH SÁCH ĐẶT HÀNG </a></li>
+                <li><a href="./DetailStatus.html">CHI TIẾT TRẠNG THÁI</a></li>
+                <li><a href="./Login.html">ĐĂNG NHẬP</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="headline">
+                <h3>DANH SÁCH ĐẶT HÀNG</h3>
+            </div>
+            <div id="feature">
+                <div class="sort">
+                    <p>Sắp xếp</p>
+                    <select id="filter-sort">
+                        <option value="">Giảm dần theo thời gian</option>
+                    </select>
+                </div>
+                <div class="filter">
+                    <p>Lọc</p>
+                    <select id="filter-service">
+                        <option value="">Khoảng thời gian</option>
+                        <option value="">Trạng thái</option>
+                        <option value="">Số điện thoại</option>
+                        <option value="">Tên khách hàng</option>
+                    </select>
+                </div>
+            </div>
+            <div class="order-item">
+                <ul>
+                    <li>
+                        <p>Mã đơn hàng 1</p> 
+                        <a href="">Chi tiết đơn hàng 1</a></li>
+                    <li> 
+                        <p>Mã đơn hàng 2</p> 
+                        <a href="">Chi tiết đơn hàng 2</a></li>
+                    <li> 
+                        <p>Mã đơn hàng 3</p> 
+                        <a href="">Chi tiết đơn hàng 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

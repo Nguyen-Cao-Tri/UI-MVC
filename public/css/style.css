@@ -165,3 +165,53 @@ body {
     background-color: black;
     color: #ccc;
 }
+.headline{
+    margin-bottom: 30px;
+}
+#feature{
+    display: flex;
+}
+.sort{
+    margin-left: 30px;
+}
+.filter{
+    margin-left: 30px;
+}
+.order-item{
+    margin-top: 20px;
+}
+.order-item ul{
+    display: flex;
+    justify-content: space-around;
+}
+.order-item li{
+    list-style: none;
+}
+.order-item li a{
+    text-decoration: none; 
+}
+.detail-item ul li{
+ list-style: none;
+ margin-top: 15px;
+}
+.option{
+    margin-top: 15px;
+}
+.update-status{
+    display: flex;
+    margin-left: 120px;
+}
+.update-status button{
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.update-status button:hover{
+    background-color: black;
+    color: white;
+}
+.search{
+    position: relative;
+    left: 500px;
+}
